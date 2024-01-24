@@ -29,6 +29,7 @@ import { Box } from "./Components/context/Box";
 import { ThemeContentxProvider } from "./Components/context/ThemeContext";
 import { UserContextProvider } from "./Components/context/UserContext";
 import DBUser from "./Components/context/DBUser";
+import Newsletter from "./Components/Newsletter";
 
 function App() {
   const person = {
@@ -171,9 +172,11 @@ function App() {
         <Box />
       </ThemeContentxProvider> */}
 
-      <UserContextProvider>
+      {/* <UserContextProvider>
         <DBUser />
-      </UserContextProvider>
+      </UserContextProvider> */}
+
+      <Newsletter />
     </div>
 
 
